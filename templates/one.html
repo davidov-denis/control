@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Первое задание</title>
+</head>
+<body>
+    <p>Первое задание <a href="/">на главную</a></p>
+    <form action="" method="post">
+        <p>Возраст:</p>
+        <input type="number" name="age">
+        <input type="submit">
+    </form>
+    {% if age %}
+        <p>Привет Алексей Петров, тебе {{ age }} лет и это здорово</p>
+    {% endif %}
+</body>
+</html>
